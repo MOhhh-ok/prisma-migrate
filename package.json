@@ -7,8 +7,8 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/main.js",
-    "types": "./dist/main.d.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "prepublishOnly": "tsc"
     },
