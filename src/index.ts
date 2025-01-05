@@ -13,10 +13,10 @@ interface Migration {
     applied_steps_count: bigint;
 }
 
-type Params = {
+interface Params {
     prisma: PrismaClient;
     migrationsPath: string;
-};
+}
 
 export async function prismaMigrate(params: Params) {
     const { prisma, migrationsPath } = params;

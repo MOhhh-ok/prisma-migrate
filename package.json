@@ -4,8 +4,14 @@
     "publishConfig": {
         "access": "public"
     },
+    "files": [
+        "dist"
+    ],
     "main": "./dist/main.js",
     "types": "./dist/main.d.ts",
+    "scripts": {
+        "prepublishOnly": "tsc"
+    },
     "dependencies": {
         "fs-extra": "^11.2.0",
         "path": "^0.12.7"

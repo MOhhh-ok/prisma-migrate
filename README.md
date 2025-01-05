@@ -15,7 +15,7 @@ npm install @masa-dev/prisma-migrate
 ## Usage
 
 ```ts
-import { prismaMigrate } from 'prisma-migrate-helper';
+import { prismaMigrate } from '@masa-dev/prisma-migrate';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
@@ -29,7 +29,7 @@ await prismaMigrate({
 ## Migration Directory Structure
 
 ```
-migrations**/
+migrations/
   ├── 20240301_initial/
   │   └── migration.sql
   ├── 20240302_add_users/
