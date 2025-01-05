@@ -15,12 +15,12 @@ npm install @masa-dev/prisma-migrate
 ## Usage
 
 ```ts
-import { prismaMigrate } from '@masa-dev/prisma-migrate';
+import { migrate } from '@masa-dev/prisma-migrate';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-await prismaMigrate({
+await migrate({
   prisma,
   migrationsPath: './prisma/migrations'
 });

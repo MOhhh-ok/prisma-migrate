@@ -18,7 +18,7 @@ interface Params {
     migrationsPath: string;
 }
 
-export async function prismaMigrate(params: Params) {
+export async function migrate(params: Params) {
     const { prisma, migrationsPath } = params;
 
     console.log('Migrating...');
