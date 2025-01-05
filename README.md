@@ -2,9 +2,9 @@
 
 A lightweight utility for managing database migrations with Prisma.
 
-## Features
+> **Note**
+> This is not a complete migration solution. It only applies pending migrations in order and does not support rollbacks or schema validation.
 
-Automatic migration in code.
 
 ## Installation
 
